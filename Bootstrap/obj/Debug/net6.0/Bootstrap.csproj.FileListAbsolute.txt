@@ -28,3 +28,4 @@ C:\Users\yamilarguedas\source\repos\Bootstrap\Bootstrap\obj\Debug\net6.0\refint\
 C:\Users\yamilarguedas\source\repos\Bootstrap\Bootstrap\obj\Debug\net6.0\Bootstrap.pdb
 C:\Users\yamilarguedas\source\repos\Bootstrap\Bootstrap\obj\Debug\net6.0\Bootstrap.genruntimeconfig.cache
 C:\Users\yamilarguedas\source\repos\Bootstrap\Bootstrap\obj\Debug\net6.0\ref\Bootstrap.dll
+C:\Users\yamilarguedas\source\repos\Bootstrap\Bootstrap\obj\Debug\net6.0\Bootstrap.sourcelink.json
