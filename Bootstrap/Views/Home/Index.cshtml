@@ -2,101 +2,80 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="row">
+<h1>
+Ejemplo 1 alineando la fila
+</h1>
+<div class="row align-items-start">
     <div class="col">
+    columna1
+    </div>
+    <div class="col">
+    columna2
+    </div>
+    <div class="col">
+    columna3
+    </div>  
+</div>
+
+<div class="row align-items-center">
+    <div class="col">
+        columna1
+    </div>
+    <div class="col">
+    columna2
+</div>
+    <div class="col">
+    columna3
+    </div>
+</div>
+
+<div class="row align-items-end">
+    <div class="col">
+        columna1
+    </div>
+    <div class="col">
+    columna2
+</div>
+    <div class="col">
+    columna3
+    </div>
+</div>
+
+<h1>
+Ejemplo 2 alieando las columnas horizontalmente
+</h1>
+<div class="row">
+    <div class="col align-self-start">
         columna 1
     </div>
-    <div class="col">
-        columna 2
+    <div class="col align-self-center">
+            columna 2
     </div>
-    <div class="col">
+    <div class="col align-self-end">
         columna 3
     </div>
-    <div class="col">
-        columna 4
     </div>
-    <div class="col">
-        columna 5
+
+<h1>
+    Ejemplo 3 offset
+</h1>
+<div class="row">
+    <div class="col-4">
+        columna 1
     </div>
-    <div class="col">
-        columna 6
-    </div>
-    <div class="col">
-        columna 7
-    </div>
-    <div class="col">
-        columna 8
-    </div>
-    <div class="col">
-        columna 9
-    </div>
-    <div class="col">
-        columna 10
-    </div>
-    <div class="col">
-        columna 11
-    </div>
-    <div class="col">
-        columna 12
-    </div>
+    <div class="col-4 offset-4">
+        columna 2
+     </div>
 </div>
 
-<br/>
+<h1>
+    Ejemplo 4 Auto margen 
+</h1>
 
-<div class="">
-    <div class="row justify-content-start">
-        <div class="col-4">
-            Inicio
-        </div>
-        <div class="col-4">
-            Start
-        </div>
+<div class="row">
+    <div class="col-3"columna 1>
     </div>
-    <br/>
-    <div class="row justify-content-center">
-        <div class="col-4">
-            Centro
-        </div>
-        <div class="col-4">
-            Center
-        </div>
+    <div class="col-4 ms-auto" columna 2>
     </div>
-    <br/>
-    <div class="row justify-content-end">
-        <div class="col-4">
-            Final
-        </div>
-        <div class="col-4">
-            end
-        </div>
-    </div>
-    <br/>
-    <div class="row justify-content-around">
-        <div class="col-4">
-            alrededor
-        </div>
-        <div class="col-4">
-            alrededor
-        </div>
-    </div>
-    <br/>
-    <div class="row justify-content-between">
-        <div class="col-4">
-            entre
-        </div>
-        <div class="col-4">
-            between
-        </div>
-    </div>
-    <br/>
-    <div class="row justify-content-evenly">
-        <div class="col-4">
-            igualmente(simetrico)
-        </div>
-        <div class="col-4">
-            evenly
-        </div>
-    </div>
-    <br/>
+
 </div>
-
