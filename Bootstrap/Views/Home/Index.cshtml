@@ -2,21 +2,52 @@
     ViewData["Title"] = "Home Page";
 }
  
-<h4> Ejemplo 1: Margenes</h4>
+<h2>Alineando texto</h2>
+<p class="text-start">Texto a la izquierda</p>
+<p class="text-center">Texto en el centro</p>
+<p class="text-end">Texto a la derecha</p>
 
+<p class="text-sm-center">Texto centralizado en pantallas pequeñas o mas grandes.</p>
+<p class="text-md-center">Texto centralizado en pantallas medias o mas grandes.</p>
+<p class="text-lg-center">Texto centralizado en pantallas grandes o mas grandes.</p>
+<p class="text-xl-center">Texto centralizado en pantallas extra grandes o mas grandes.</p>
 
-<div>
-    Fila 1
+<h2>Texto dentro de su contenedor</h2>
+
+<div class="badge bg-primary text-wrap" style="width: 6rem;"> 
+    Este texto no se sale de su contenedor
 </div>
 
-
-<div class="my-3">
-    Fila 2
+<div class="badge bg-primary text-wrap text-break" style="width": 6rem;>
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 </div>
 
-<div>
-    Fila 3
-</div>
+<h2>Transformando texto</h2>
 
-<button class="btn-primary px-5">Boton 1</button>
-<button class="btn-secondary ms-5">Boton 1</button>
+<p class="text-lowercase">Minusculas.</p>
+<p class="text-uppercase">Mayusculas texto.</p>
+<p class="text-capitalize">Cada palabra con mayusculas.</p>
+
+<h2>Tamaño del texto</h2>
+
+<p class="fs-1">.fs-1</p>
+<p class="fs-2">.fs-2</p>
+<p class="fs-3">.fs-3</p>
+<p class="fs-4">.fs-4</p>
+<p class="fs-5">.fs-5</p>
+<p class="fs-6">.fs-6</p>
+
+<p class="fw-bold">Negrita</p>
+<p class="fw-bolder">Mas negrita.</p>
+<p class="fw-normal">Normal.</p>
+
+<p class="fw-light"> Texto Light.</p>
+<p class="fw-lighter">Mas light.</p>
+<p class="fst-italic">Cursiva.</p>
+
+<p class="text-decoration-underline">Subrayado.</p>
+<p class="text-decoration-line-through">Linea a traves del texto.</p>
+
+<a href="#" class="">Enlace con decoracion</a>
+<br />
+<a href="#" class="text-decoration-none">enlace sin decoracion</a>
