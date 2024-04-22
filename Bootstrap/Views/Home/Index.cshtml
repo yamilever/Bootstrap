@@ -2,52 +2,70 @@
     ViewData["Title"] = "Home Page";
 }
  
-<h2>Alineando texto</h2>
-<p class="text-start">Texto a la izquierda</p>
-<p class="text-center">Texto en el centro</p>
-<p class="text-end">Texto a la derecha</p>
+<h2>Formulario normal</h2>
 
-<p class="text-sm-center">Texto centralizado en pantallas pequeñas o mas grandes.</p>
-<p class="text-md-center">Texto centralizado en pantallas medias o mas grandes.</p>
-<p class="text-lg-center">Texto centralizado en pantallas grandes o mas grandes.</p>
-<p class="text-xl-center">Texto centralizado en pantallas extra grandes o mas grandes.</p>
 
-<h2>Texto dentro de su contenedor</h2>
+<form>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control"/>
+    </div>
 
-<div class="badge bg-primary text-wrap" style="width: 6rem;"> 
-    Este texto no se sale de su contenedor
-</div>
+    <div class="mb-3">
+        <label class="form-label">Descripcion</label>
+        <textarea type="email" class="form-control" rows="3"></textarea>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Color favorito</label>
+        <select class="form-select">
+            <option value="1" >azul</option>
+            <option value="2">rojo</option>
+            <option value="3">verde</option>
+        </select>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input"  type="checkbox" checked/>
+        <label class="form-label">Es Empleado</label>
+    </div>
+    <div class="form-check">
+        <input type="radio" class="form-check-input" name="miradio" />
+        <label>Opcion 1</label>
+    </div>
+    <div class="form-check">
+        <input type="radio" class="form-check-input" name="miradio" />
+        <label>Opcion 2</label>
+    </div>
+     
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" placeholder="email"/>
+        <label>Email</label>
+    </div>
 
-<div class="badge bg-primary text-wrap text-break" style="width": 6rem;>
-    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-</div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" disabled />
+    </div>
 
-<h2>Transformando texto</h2>
+    <div class="mb-3">
+          <label>color de la camisa</label> 
+          <input type="color" class="form-control form-control-color value="#563d7c" />
+    </div>
+    <div>
+        <button class="btn btn-primary">Enviar</button>
+        <button class="btn btn-secondary">cancelar</button>
+    </div>
+</form>
 
-<p class="text-lowercase">Minusculas.</p>
-<p class="text-uppercase">Mayusculas texto.</p>
-<p class="text-capitalize">Cada palabra con mayusculas.</p>
+<h2>Formuario con columnas </h2>
+    <div class="row">
+        <div class="col">
+            <input type="text" class="form-control placeholder="primer nombre"/>
+        </div>
+    <div class="col">
+        <input type="text" class="form-control placeholder="primer apellido" />
+    </div>
+    <div class="col">
+         <button class="btn btn-primary">Enviar</button> 
 
-<h2>Tamaño del texto</h2>
-
-<p class="fs-1">.fs-1</p>
-<p class="fs-2">.fs-2</p>
-<p class="fs-3">.fs-3</p>
-<p class="fs-4">.fs-4</p>
-<p class="fs-5">.fs-5</p>
-<p class="fs-6">.fs-6</p>
-
-<p class="fw-bold">Negrita</p>
-<p class="fw-bolder">Mas negrita.</p>
-<p class="fw-normal">Normal.</p>
-
-<p class="fw-light"> Texto Light.</p>
-<p class="fw-lighter">Mas light.</p>
-<p class="fst-italic">Cursiva.</p>
-
-<p class="text-decoration-underline">Subrayado.</p>
-<p class="text-decoration-line-through">Linea a traves del texto.</p>
-
-<a href="#" class="">Enlace con decoracion</a>
-<br />
-<a href="#" class="text-decoration-none">enlace sin decoracion</a>
+        </div>
+    </div>
